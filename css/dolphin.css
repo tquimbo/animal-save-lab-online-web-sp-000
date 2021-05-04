@@ -12,11 +12,11 @@ html {
   z-index: 1;
 }
 
-#dolphin {
-  position: absolute;
-  top: 400px;
-  right: 0;
-}
 
 /* Write your solution here */
+@media only screen and (min-width: 642px) (max-width: 1196px) {
+  #dolphin {
+    top: 50px;
+  }
 
+  }
